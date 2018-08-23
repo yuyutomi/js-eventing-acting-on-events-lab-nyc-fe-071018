@@ -44,6 +44,3 @@ document.addEventListener('keydown', (event) => {
    
  }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-moveDodgerRight()
-})
