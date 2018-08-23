@@ -12,7 +12,7 @@ document.addEventListener('keydown', (event) => {
       console.log(newLeftNumber)
     }
   }
-  if(event.which === 39) {
+/*  if(event.which === 39) {
     // we can't do element.style.right because we're not given a 'right' styling
     let previousRight = element.style.left 
     // 180
@@ -22,7 +22,7 @@ document.addEventListener('keydown', (event) => {
       element.style.right = newRightNumber
     }
   }
-})
+}) */
 
 // To pass this test, we'll use the following, but the above method is ideal.
  
