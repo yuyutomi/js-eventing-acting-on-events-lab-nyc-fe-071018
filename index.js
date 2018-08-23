@@ -9,6 +9,7 @@ document.addEventListener('keydown', (event) => {
     if(previousLeftNumber > 0) {
       let newLeftNumber = (previousLeftNumber - 15) + 'px'
       element.style.left = newLeftNumber
+      console.log(newLeftNumber)
     }
   }
   if(event.which === 39) {
