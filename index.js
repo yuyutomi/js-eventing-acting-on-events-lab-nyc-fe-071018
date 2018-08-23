@@ -24,8 +24,9 @@ document.addEventListener('keydown', (event) => {
 })
 
 // To pass this test, we'll use the following, but the above method is ideal.
- function 
-  if(event.which === 39) {
+ 
+ function moveDodgerRight {
+    if(event.which === 39) {
     // we can't do element.style.right because we're not given a 'right' styling
     let previousRight = element.style.left 
     // 180
@@ -35,3 +36,4 @@ document.addEventListener('keydown', (event) => {
       element.style.right = newRightNumber
     }
   }
+}
