@@ -21,8 +21,8 @@ document.addEventListener('keydown', (event) => {
       let newRightNumber = (previousRightNumber + 10) + 'px'
       element.style.right = newRightNumber
     }
-  }
-}) */
+  }*/
+}) 
 
 // To pass this test, we'll use the following, but the above method is ideal.
  
