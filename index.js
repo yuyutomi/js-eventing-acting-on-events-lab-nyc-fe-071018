@@ -12,9 +12,13 @@ document.addEventListener('keydown', (event) => {
     }
   }
   if(event.which === 39) {
-    let previousRight = element.style.right 
+    // we can't do element.style.right because we're not given a 'right' styling
+    let previousRight = element.style.left 
     // 180
-    let previous
+    let previousRightNumber = parseInt(previousRight.replace('px', ''), 10)
+    if(previousRightNumber > 0) {
+      let 
+    }
   }
 })
 
