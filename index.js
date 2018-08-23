@@ -12,7 +12,9 @@ document.addEventListener('keydown', (event) => {
     }
   }
   if(event.which === 39) {
-    
+    let previousRight = element.style.right 
+    // 180
+    let previous
   }
 })
 
