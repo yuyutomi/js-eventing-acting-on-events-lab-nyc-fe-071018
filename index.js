@@ -11,5 +11,9 @@ document.addEventListener('keydown', (event) => {
       element.style.left = newLeftNumber
     }
   }
-  if(event.which === )
+  if(event.which === 39) {
+    
+  }
 })
+
+// To pass this test, we'll use the following, but the above method is ideal.
