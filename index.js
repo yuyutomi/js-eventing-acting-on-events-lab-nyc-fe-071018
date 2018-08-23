@@ -35,6 +35,7 @@ document.addEventListener('keydown', (event) => {
     if(previousRightNumber < 400) {
       let newRightNumber = (previousRightNumber + 10) + 'px'
       element.style.left = newRightNumber
+      console.log(previousRightNumber)
     }
   }
       
